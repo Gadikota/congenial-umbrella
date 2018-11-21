@@ -1,0 +1,4 @@
+<%= simple_form_for image, url: product_images_path(product) do |f| %>
+  <%= f.input :file, as: :file %>
+  <%= f.button :submit %>
+<% end %>

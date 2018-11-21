@@ -1,0 +1,1 @@
+class BasicAuthentication < Authentication;end

@@ -1,0 +1,1 @@
+class FacebookAuthentication < Authentication;end

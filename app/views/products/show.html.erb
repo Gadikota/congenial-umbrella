@@ -1,0 +1,14 @@
+<h3> <%=link_to "Go back", products_path %></h3>
+<table>
+  <thead>
+    <tr>
+      <th> Name </th>
+      <th> Price</th>
+      <th> Category </th> 
+      <th> Created at</th> 
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @product %>
+  </tbody>
+</table>
